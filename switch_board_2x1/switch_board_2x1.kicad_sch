@@ -129,6 +129,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -537,17 +620,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 1.27 0)
+			(property "Reference" "J1"
+				(at -6.35 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "0022232041"
-				(at 3.81 -3.81 0)
+				(at -3.81 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -741,7 +823,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.54)
-					(name "~"
+					(name "Vdd"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -759,7 +841,7 @@
 				(pin passive line
 					(at 2.54 2.54 270)
 					(length 2.54)
-					(name "~"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -777,7 +859,7 @@
 				(pin passive line
 					(at 5.08 2.54 270)
 					(length 2.54)
-					(name "~"
+					(name "SW2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -795,7 +877,7 @@
 				(pin passive line
 					(at 7.62 2.54 270)
 					(length 2.54)
-					(name "~"
+					(name "SW1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -915,57 +997,63 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FGAB Black keys are 27mm apart\nCDE Black keys are 28.25mm apart\n\nWhite keys are 23.75mm apart\n"
+		(exclude_from_sim no)
+		(at 150.368 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99508b39-8186-48f2-aa03-69ea4bf3f7af")
+	)
 	(junction
-		(at 86.36 49.53)
+		(at 41.91 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02a92f32-b4a0-4733-85dd-fc40d6e32602")
+		(uuid "2c0c8926-de2a-4492-99bf-1548059400af")
 	)
 	(junction
 		(at 114.3 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26f31ad5-06b9-4e61-8923-4c7d374ffab4")
+		(uuid "64f10e78-880c-4a22-a3a1-b76b8601e46b")
 	)
 	(junction
-		(at 86.36 92.71)
+		(at 86.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ad40201-d1b1-4f33-b6dc-99947de13f30")
+		(uuid "a6ee2ebf-47bd-4c73-9c9c-6c940c5decdf")
+	)
+	(junction
+		(at 86.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f00ca818-c685-4088-a2ef-d82378d2037b")
 	)
 	(wire
 		(pts
-			(xy 41.91 41.91) (xy 49.53 41.91)
+			(xy 86.36 104.14) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0510ff14-e442-4b55-bfea-5a5d26531a38")
+		(uuid "02b6a045-6753-489d-9d16-4cc37fd15202")
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 90.17 49.53)
+			(xy 86.36 115.57) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bc26dc6-e82a-42c7-8a2b-41169950a8c6")
+		(uuid "094fc3d9-9d22-4c85-9b8c-6f3f7dca1831")
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 86.36 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c49a6a2-e0de-4ee9-9cfa-0a502b255fe8")
-	)
-	(wire
-		(pts
-			(xy 86.36 105.41) (xy 86.36 109.22)
+			(xy 86.36 62.23) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -975,17 +1063,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 92.71) (xy 86.36 92.71)
+			(xy 114.3 91.44) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a2153e1-40fc-46b9-85a8-c391d214aee3")
+		(uuid "202b9935-3752-46cb-83fb-dc9e0d4ca9d2")
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 86.36 119.38)
+			(xy 86.36 73.66) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 97.79) (xy 86.36 92.71)
+			(xy 86.36 54.61) (xy 86.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1005,33 +1093,43 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 114.3 92.71)
+			(xy 86.36 91.44) (xy 90.17 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34abc4db-6306-4eaa-8bb6-8d8d61bfc5ac")
+		(uuid "3042d119-27c7-4c2f-8b4f-f07bf53a5cfd")
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 114.3 49.53)
+			(xy 40.64 39.37) (xy 41.91 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ee8ca58-3d85-4f22-a4a6-4b4afd099f66")
+		(uuid "3b497fd1-3c87-441a-9b16-366a01858fb9")
 	)
 	(wire
 		(pts
-			(xy 49.53 92.71) (xy 49.53 41.91)
+			(xy 49.53 39.37) (xy 49.53 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a1ff3c1-5dfc-4d37-93d7-f6381b6576be")
+		(uuid "3ca3f828-f99b-4fe9-b6a5-9d6b706fdcc9")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9d75d7-d28b-48d2-92a9-b03cf04739cc")
 	)
 	(wire
 		(pts
@@ -1045,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 90.17 92.71)
+			(xy 86.36 49.53) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1065,6 +1163,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 39.37) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f7e817-7d03-43fb-9393-54f27fdb13e9")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f8b997-031a-4fbc-a815-585262ee8d90")
+	)
+	(wire
+		(pts
 			(xy 114.3 34.29) (xy 114.3 49.53)
 		)
 		(stroke
@@ -1075,27 +1193,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 52.07 49.53)
+			(xy 49.53 49.53) (xy 86.36 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7428f45-74a5-461d-bc0f-45a0f041e479")
+		(uuid "b474f419-ba43-4ca6-87a3-6163a0ca47c4")
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 76.2)
+			(xy 46.99 91.44) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c306a74c-9b2d-408c-9322-9d2b1856dc2b")
+		(uuid "c4c934da-20ba-4b0e-9041-fbff6312d14f")
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 114.3 92.71)
+			(xy 100.33 49.53) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1105,13 +1223,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 39.37) (xy 52.07 39.37)
+			(xy 86.36 96.52) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4ebe21c-0542-4422-b757-3c6e84dd77b1")
+		(uuid "d0b2a686-18ec-4789-a704-9c9fdc3f016c")
 	)
 	(wire
 		(pts
@@ -1125,27 +1243,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 54.61) (xy 86.36 49.53)
+			(xy 41.91 41.91) (xy 46.99 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db345d01-4712-42c3-b972-ed163dd6594d")
-	)
-	(wire
-		(pts
-			(xy 86.36 62.23) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b088d5-99bb-48d7-af0f-64396ebc10ee")
+		(uuid "eb52cf0b-047d-4fc4-8284-02eb6046493a")
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 95.25 92.71 0)
+		(at 95.25 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1154,7 +1262,7 @@
 		(fields_autoplaced yes)
 		(uuid "065295f3-acc2-4aea-8b13-1d473da2a49e")
 		(property "Reference" "SW2"
-			(at 95.25 86.36 0)
+			(at 95.25 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,15 +1270,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 95.25 88.9 0)
+			(at 95.25 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 92.71 0)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 92.71 0)
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1296,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 95.25 92.71 0)
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 76.2 0)
+		(at 86.36 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1222,7 +1330,7 @@
 		(fields_autoplaced yes)
 		(uuid "09288e3d-8cd4-4cf4-b13b-e23533bc69fe")
 		(property "Reference" "#PWR02"
-			(at 86.36 82.55 0)
+			(at 86.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 81.28 0)
+			(at 86.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 76.2 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 76.2 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 76.2 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,33 +1552,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 95.25 49.53 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ba449d2-0677-45cf-9fdd-c93fe02f891d")
-		(property "Reference" "SW1"
-			(at 95.25 43.18 0)
+		(uuid "262b7f23-15f3-4799-bdd0-e27e40eeffbe")
+		(property "Reference" "H2"
+			(at 189.23 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 95.25 45.72 0)
+		(property "Value" "MountingHole"
+			(at 189.23 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 49.53 0)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 186.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1589,133 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 49.53 0)
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60f35534-4339-49ed-b4c3-eb0f7f187c99")
+		(property "Reference" "H1"
+			(at 189.23 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 95.25 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba449d2-0677-45cf-9fdd-c93fe02f891d")
+		(property "Reference" "SW1"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1724,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 95.25 49.53 0)
+			(at 95.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1739,7 @@
 			(uuid "b857aed7-0b04-4179-9ba8-f048fc82d6c5")
 		)
 		(instances
-			(project ""
+			(project "switch_board"
 				(path "/5cb22224-e940-411d-967b-c49f95977529"
 					(reference "SW1")
 					(unit 1)
@@ -1512,245 +1748,17 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_LED-Indication-Discrete:LTST-C170TBKT")
-		(at 86.36 102.87 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af5e338e-0a3c-45fc-b939-2a09e4f62e24")
-		(property "Reference" "D1"
-			(at 91.44 100.6474 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170TBKT"
-			(at 91.44 103.1874 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "digikey-footprints:0805"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 93.98 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED BLUE CLEAR SMD"
-			(at 86.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "160-1579-1-ND"
-			(at 96.52 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTST-C170TBKT"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "LED Indication - Discrete"
-			(at 104.14 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 106.68 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-1-ND/564889"
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "LED BLUE CLEAR SMD"
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a1f3ec3-8069-4c31-84f3-a4021e770d75")
-		)
-		(pin "2"
-			(uuid "c40f9ed2-a9b8-4b75-9f00-52caa99d6ed1")
-		)
-		(instances
-			(project "switch_board"
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7dbb204-88b7-4604-9295-d1874b8d7adc")
-		(property "Reference" "#PWR01"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b16ac21-2222-4d29-8594-8d48cdbfacea")
-		)
-		(instances
-			(project "switch_board"
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7323b66-5744-4659-912c-56c5bb956bb8")
-		(property "Reference" "R2"
-			(at 88.9 111.7599 0)
+		(uuid "9f9eb49c-eaa4-4a12-8c36-a0edf4f66d12")
+		(property "Reference" "H3"
+			(at 189.23 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,8 +1766,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 88.9 114.2999 0)
+		(property "Value" "MountingHole"
+			(at 189.23 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,8 +1775,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 84.582 113.03 90)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 113.03 0)
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,161 +1793,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 86.36 113.03 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9e49f42f-8ff4-4c52-8b5e-9a509bd42fd1")
-		)
-		(pin "2"
-			(uuid "a78e2fcb-f93b-4714-8d41-ab77cc2926d0")
 		)
 		(instances
 			(project "switch_board"
 				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d96cafae-7ccb-43a3-8514-74c778cde108")
-		(property "Reference" "R1"
-			(at 88.9 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 88.9 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.582 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dc513c8-c2cb-4730-961d-a4915b2cfa3a")
-		)
-		(pin "2"
-			(uuid "5f9fe816-c580-4ff9-b147-82cd2e45cddb")
-		)
-		(instances
-			(project ""
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0188b7d-9ce9-421f-887a-e744c91eeee0")
-		(property "Reference" "#PWR03"
-			(at 59.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23fa489d-9892-4e1f-89e0-b0f83b094dd2")
-		)
-		(instances
-			(project "switch_board"
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "#PWR03")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1954,7 +1820,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f52a1d0d-3f41-434b-8f76-734b7956b864")
+		(uuid "af5e338e-0a3c-45fc-b939-2a09e4f62e24")
 		(property "Reference" "D2"
 			(at 91.44 57.4674 90)
 			(effects
@@ -2093,15 +1959,513 @@
 			)
 		)
 		(pin "1"
+			(uuid "7a1f3ec3-8069-4c31-84f3-a4021e770d75")
+		)
+		(pin "2"
+			(uuid "c40f9ed2-a9b8-4b75-9f00-52caa99d6ed1")
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7dbb204-88b7-4604-9295-d1874b8d7adc")
+		(property "Reference" "#PWR01"
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b16ac21-2222-4d29-8594-8d48cdbfacea")
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96cafae-7ccb-43a3-8514-74c778cde108")
+		(property "Reference" "R1"
+			(at 88.9 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 88.9 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.582 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc513c8-c2cb-4730-961d-a4915b2cfa3a")
+		)
+		(pin "2"
+			(uuid "5f9fe816-c580-4ff9-b147-82cd2e45cddb")
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee272a5c-6749-44fd-9aa6-8b1b2a9d979a")
+		(property "Reference" "H4"
+			(at 189.23 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0188b7d-9ce9-421f-887a-e744c91eeee0")
+		(property "Reference" "#PWR03"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23fa489d-9892-4e1f-89e0-b0f83b094dd2")
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_LED-Indication-Discrete:LTST-C170TBKT")
+		(at 86.36 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f52a1d0d-3f41-434b-8f76-734b7956b864")
+		(property "Reference" "D1"
+			(at 91.44 99.3774 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170TBKT"
+			(at 91.44 101.9174 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:0805"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR SMD"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "160-1579-1-ND"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C170TBKT"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelectronics"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "LED Indication - Discrete"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-1-ND/564889"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED BLUE CLEAR SMD"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "cee3a2f2-3460-4599-a900-cb79323dfe60")
 		)
 		(pin "2"
 			(uuid "aeacb51c-cf8e-4afa-9373-048344a27331")
 		)
 		(instances
-			(project ""
+			(project "switch_board"
 				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "D2")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b08b50-389b-423a-b870-d2a7654d6943")
+		(property "Reference" "R2"
+			(at 88.9 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 88.9 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.582 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ecc680-c378-45c4-894a-7d52e86db247")
+		)
+		(pin "2"
+			(uuid "1ebc7771-d3be-4c57-80ca-d22e20e6649c")
+		)
+		(instances
+			(project "switch_board"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "R2")
 					(unit 1)
 				)
 			)

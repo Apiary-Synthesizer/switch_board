@@ -1,3 +1,6 @@
-switch_board-backups/*
-fp-info-cache
-~*
+switch_board_2x1/switch_board_2x1-backups/*
+switch_board_2x1/fp-info-cache
+switch_board_2x1/~*
+switch_board_3x1/switch_board_3x1-backups/*
+switch_board_3x1/fp-info-cache
+switch_board_3x1/~*
