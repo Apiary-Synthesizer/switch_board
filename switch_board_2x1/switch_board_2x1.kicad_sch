@@ -348,7 +348,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_LED-Indication-Discrete:LTST-C170TBKT"
+		(symbol "dk_LED-Indication-Discrete:LTST-C191KFKT"
 			(pin_names
 				(offset 0)
 			)
@@ -356,14 +356,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -3.81 2.54 0)
+				(at -3.81 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LTST-C170TBKT"
+			(property "Value" "LTST-C191KFKT"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -371,7 +371,7 @@
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:0805"
+			(property "Footprint" "digikey-footprints:0603"
 				(at 5.08 5.08 0)
 				(effects
 					(font
@@ -381,7 +381,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
 				(at 5.08 7.62 0)
 				(effects
 					(font
@@ -391,7 +391,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED BLUE CLEAR SMD"
+			(property "Description" "LED ORANGE CLEAR SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -400,7 +400,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key_PN" "160-1579-1-ND"
+			(property "Digi-Key_PN" "160-1445-1-ND"
 				(at 5.08 10.16 0)
 				(effects
 					(font
@@ -410,7 +410,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LTST-C170TBKT"
+			(property "MPN" "LTST-C191KFKT"
 				(at 5.08 12.7 0)
 				(effects
 					(font
@@ -440,7 +440,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
+			(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
 				(at 5.08 20.32 0)
 				(effects
 					(font
@@ -450,7 +450,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-1-ND/564889"
+			(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832"
 				(at 5.08 22.86 0)
 				(effects
 					(font
@@ -460,7 +460,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "LED BLUE CLEAR SMD"
+			(property "Description_1" "LED ORANGE CLEAR SMD"
 				(at 5.08 25.4 0)
 				(effects
 					(font
@@ -490,7 +490,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "160-1579-1-ND"
+			(property "ki_keywords" "160-1445-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -499,7 +499,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTST-C170TBKT_0_1"
+			(symbol "LTST-C191KFKT_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(symbol "LTST-C170TBKT_1_1"
+			(symbol "LTST-C191KFKT_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1033,33 +1033,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b6a045-6753-489d-9d16-4cc37fd15202")
-	)
-	(wire
-		(pts
-			(xy 86.36 115.57) (xy 86.36 118.11)
+			(xy 86.36 104.14) (xy 86.36 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "094fc3d9-9d22-4c85-9b8c-6f3f7dca1831")
-	)
-	(wire
-		(pts
-			(xy 86.36 62.23) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efa0a05-67c4-4660-abd6-9b388ec6e739")
 	)
 	(wire
 		(pts
@@ -1073,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 76.2)
+			(xy 86.36 62.23) (xy 86.36 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1083,13 +1063,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 54.61) (xy 86.36 49.53)
+			(xy 86.36 114.3) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24938151-6750-4404-8dc5-e5a7d0f73e8d")
+		(uuid "285910cc-ada2-48d6-b71c-12ef993938b3")
 	)
 	(wire
 		(pts
@@ -1193,6 +1173,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 49.53) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1bc972-4b8f-490c-9f2b-b9831299a1e5")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 86.36 49.53)
 		)
 		(stroke
@@ -1213,6 +1203,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 72.39) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c521361d-03d9-4a55-b472-505197f8d0f1")
+	)
+	(wire
+		(pts
 			(xy 100.33 49.53) (xy 114.3 49.53)
 		)
 		(stroke
@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 96.52) (xy 86.36 91.44)
+			(xy 86.36 91.44) (xy 86.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch_library:SW_Cherry_MX_PCB_1.00u_3D_Model"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -1579,7 +1579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 186.69 76.2 0)
 			(effects
 				(font
@@ -1616,6 +1616,168 @@
 		)
 	)
 	(symbol
+		(lib_id "dk_LED-Indication-Discrete:LTST-C191KFKT")
+		(at 86.36 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b60f31e-bb28-4182-b383-6deedf3a22de")
+		(property "Reference" "D1"
+			(at 91.44 109.5374 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 91.44 112.0774 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED ORANGE CLEAR SMD"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "160-1445-1-ND"
+			(at 96.52 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KFKT"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelectronics"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "LED Indication - Discrete"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED ORANGE CLEAR SMD"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcf8a3be-c424-4031-8abe-38ccf792ac01")
+		)
+		(pin "2"
+			(uuid "fd6050a7-2b4b-469b-bb0a-32653274176c")
+		)
+		(instances
+			(project "switch_board_2x1"
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 186.69 67.31 0)
 		(unit 1)
@@ -1643,7 +1805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 186.69 67.31 0)
 			(effects
 				(font
@@ -1681,7 +1843,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 95.25 91.44 0)
+		(at 95.25 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1690,7 +1852,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ba449d2-0677-45cf-9fdd-c93fe02f891d")
 		(property "Reference" "SW1"
-			(at 95.25 85.09 0)
+			(at 95.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,14 +1860,14 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 95.25 87.63 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch_library:SW_Cherry_MX_PCB_1.00u_3D_Model"
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -1775,7 +1937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -1806,168 +1968,6 @@
 			(project "switch_board"
 				(path "/5cb22224-e940-411d-967b-c49f95977529"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_LED-Indication-Discrete:LTST-C170TBKT")
-		(at 86.36 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af5e338e-0a3c-45fc-b939-2a09e4f62e24")
-		(property "Reference" "D2"
-			(at 91.44 57.4674 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170TBKT"
-			(at 91.44 60.0074 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "digikey-footprints:0805"
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 93.98 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED BLUE CLEAR SMD"
-			(at 86.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "160-1579-1-ND"
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTST-C170TBKT"
-			(at 99.06 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "LED Indication - Discrete"
-			(at 104.14 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-1-ND/564889"
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "LED BLUE CLEAR SMD"
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 114.3 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 116.84 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a1f3ec3-8069-4c31-84f3-a4021e770d75")
-		)
-		(pin "2"
-			(uuid "c40f9ed2-a9b8-4b75-9f00-52caa99d6ed1")
-		)
-		(instances
-			(project "switch_board"
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2041,7 +2041,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 111.76 0)
+		(at 86.36 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2050,7 +2050,7 @@
 		(fields_autoplaced yes)
 		(uuid "d96cafae-7ccb-43a3-8514-74c778cde108")
 		(property "Reference" "R1"
-			(at 88.9 110.4899 0)
+			(at 88.9 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 88.9 113.0299 0)
+			(at 88.9 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2068,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 84.582 111.76 90)
+			(at 84.582 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 111.76 0)
+			(at 86.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 111.76 0)
+			(at 86.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,6 +2104,168 @@
 			(project "switch_board"
 				(path "/5cb22224-e940-411d-967b-c49f95977529"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_LED-Indication-Discrete:LTST-C191KFKT")
+		(at 86.36 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c2e355-d535-4116-ae7f-4cc8bf085ab1")
+		(property "Reference" "D2"
+			(at 91.44 67.6274 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 91.44 70.1674 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED ORANGE CLEAR SMD"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "160-1445-1-ND"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KFKT"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optoelectronics"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "LED Indication - Discrete"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS22-2000-222/LTST-C191KFKT.pdf"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED ORANGE CLEAR SMD"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab755d65-fe60-4d6a-b572-3557f2930a95")
+		)
+		(pin "2"
+			(uuid "d186fd41-1a2b-45bc-aa8d-10167910a8be")
+		)
+		(instances
+			(project ""
+				(path "/5cb22224-e940-411d-967b-c49f95977529"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
 			(at 186.69 93.98 0)
 			(effects
 				(font
@@ -2240,170 +2402,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_LED-Indication-Discrete:LTST-C170TBKT")
-		(at 86.36 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f52a1d0d-3f41-434b-8f76-734b7956b864")
-		(property "Reference" "D1"
-			(at 91.44 99.3774 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170TBKT"
-			(at 91.44 101.9174 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "digikey-footprints:0805"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 93.98 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED BLUE CLEAR SMD"
-			(at 86.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "160-1579-1-ND"
-			(at 96.52 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTST-C170TBKT"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Optoelectronics"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "LED Indication - Discrete"
-			(at 104.14 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf"
-			(at 106.68 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-1-ND/564889"
-			(at 109.22 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "LED BLUE CLEAR SMD"
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cee3a2f2-3460-4599-a900-cb79323dfe60")
-		)
-		(pin "2"
-			(uuid "aeacb51c-cf8e-4afa-9373-048344a27331")
-		)
-		(instances
-			(project "switch_board"
-				(path "/5cb22224-e940-411d-967b-c49f95977529"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 86.36 69.85 0)
+		(at 86.36 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2412,7 +2412,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8b08b50-389b-423a-b870-d2a7654d6943")
 		(property "Reference" "R2"
-			(at 88.9 68.5799 0)
+			(at 88.9 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 88.9 71.1199 0)
+			(at 88.9 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 84.582 69.85 90)
+			(at 84.582 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 69.85 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 69.85 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
