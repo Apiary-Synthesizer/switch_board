@@ -8,4 +8,5 @@
   (lib (name "Switch_Keyboard_Hybrid")(type "KiCad")(uri "C:/Program Files/KiCad/com.github.perigoso.keyswitch-kicad-library_v2.4/footprints/Switch_Keyboard_Hybrid.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Kailh")(type "KiCad")(uri "C:/Program Files/KiCad/com.github.perigoso.keyswitch-kicad-library_v2.4/footprints/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
   (lib (name "switch_library")(type "KiCad")(uri "C:/Users/jonat/Documents/KiCad/Synth/switch_board/switch_library.pretty")(options "")(descr ""))
+  (lib (name "silkscreen")(type "KiCad")(uri "C:/Users/jonat/Documents/KiCad/Synth/switch_board/silkscreen.pretty")(options "")(descr ""))
 )
